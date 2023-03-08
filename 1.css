@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p:hover{
+  color:blue ;
+}
+a:hover{
+  color:blue;
+
+}
+
+.text-box h1:hover{
+  color:blue;
+}
+.text-box h1{
+  justify-content: center;
+  font-size: 25px;
+}
+.text-box h6{
+  font-size: 15px;
+}
+.text-box img{
+  float:left;
+  width: 20%;
+  height: 20%;
+}
+
+.box h1:hover{
+  color:blue;
+}
+.box h1{
+  justify-content: center;
+  font-size: 25px;
+}
+.box h6{
+  font-size: 15px;
+}
+.box img{
+  float:left;
+  width: 20%;
+  height: 20%;
+}
+.logo{
+   margin: 15px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-size:auto;
+    background:white;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-image:url(news.jpeg);
+}
+{box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:lightgray;
+  position: sticky;
+  top: 0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
